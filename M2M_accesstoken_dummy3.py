@@ -38,7 +38,7 @@ payload = {
     "sub": "0oa1284mh9886hbYl698",
     "aud": "https://integrator-6847367.okta.com/oauth2/v1/token",
     "iat": now,                  # Current time
-    "exp": now + 3600            # Expires in 1 hour
+    "exp": now + 3660            # Expires in 1 hour
 }
 
 # 3. Sign the payload using the RS256 algorithm
